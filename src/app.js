@@ -1,7 +1,7 @@
 require('dotenv').config();
 const bodyParser = require('body-parser');
 const express = require('express');
-const octokit = require('@octokit/rest');
+const Octokit = require('@octokit/rest');
 const nacl = require('tweetnacl');
 nacl.util = require('tweetnacl-util');
 
